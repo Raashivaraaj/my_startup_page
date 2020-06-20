@@ -1,0 +1,157 @@
+
+header{
+	clear: both;
+}
+.bg-image{
+	position: absolute;
+	margin: auto;
+	background-image: url('images/download.jpg');
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 700px;
+    width: 100%;
+}
+.container{
+	text-align: center;
+	margin-left:15px;
+
+}
+
+h1{
+	font-size: 60px;
+	color: white;
+	font-family: Abril Fatface,Times New Roman,Times,serif;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+p{
+	/*font-family: 'Cookie', cursive;*/
+	font-family:cursive;
+	
+	font-size:15px;
+	color: white;
+
+}
+
+a{
+	background-color: transparent;
+	color: white;
+	border:1px solid white;
+	margin: 2px;
+	padding: 2px;
+}
+
+a:hover{
+	outline: 0;
+}
+a:visited{
+	text-decoration: underline;
+
+}
+.container a{
+	border:none;
+}
+.nav{
+	font-size: 20px;
+
+}
+.nav a{
+	padding: 10px;
+	margin: 20px,30px;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+}
+.nav img{
+	height: 40px;
+	width: 50px;
+}
+
+.title{
+	font-family: 'Fredericka the Great', cursive;
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+}
+.quotes{
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid blue;
+	border-radius: 10%;
+	
+}
+img:hover{
+	animation: heartBeat;
+	animation-duration: 3s;
+}
+
+
+.quotes-1 img, .quotes-2 img,.quotes-3 img,.quotes-4 img{
+	height: 250px;
+	width: 250px;
+	}
+.items-right{
+	float:right;
+}
+.btn-bg{
+	background-color: transparent;
+	border-color: white;
+
+}
+.btn-bg:hover{
+	background-color: transparent;
+	border-color: white;
+
+}
+
+
+hr{
+	border-color:blue;
+	max-width: 60px;
+}
+
+.section-container{
+	text-align: center;
+
+	
+	
+}
+.our-serv{
+	position: relative;
+	top: 15px;
+	left: 10px;
+	height: 200px;
+	display: inline-flex;
+	width: 100%;
+}
+.about-section{
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+
+	    height: 200px;
+	    width: 100%;
+	    display: inline-block;
+	    
+
+}
+
+.animate__pulse{
+	animation-iteration-count:infinite;
+}
+.section-container h1,.section-container h2{
+	color: black;
+}
+.img-sz{
+	height: 5%;
+	width: 5%;
+}
+.empty{
+	height: 30px;
+	width: 50px;
+}
