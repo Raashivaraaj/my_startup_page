@@ -1,13 +1,9 @@
 
-header{
-	clear: both;
-}
 .bg-image{
 	position: absolute;
 	margin: auto;
 	background-image: url('images/download.jpg');
-	position: relative;
-    background-size: cover;
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     height: 100%;
