@@ -79,6 +79,7 @@ a:visited{
 .quotes{
 	margin-top: 5px;
 	display: flex;
+	justify-content:center;
 	border: 1px solid blue;
 	border-radius: 10%;
 	
