@@ -1,8 +1,8 @@
 
 .bg-image{
-    background-image: url('images/download.jpg')no-repeat center center fixed;
-    background-size: cover;
-   -webkit-background-size: cover;
+	position:abosolute;
+	background: url(images/download.jpg) no-repeat center center fixed;
+       -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -71,6 +71,7 @@ a:visited{
 	margin: 0 auto;
 }
 .quotes{
+	
 	margin-top: 5px;
 	display: flex;
 	justify-content:center;
