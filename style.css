@@ -1,6 +1,5 @@
 
 .bg-image{
-    position: absolute;
     background-image: url('images/download.jpg')no-repeat center center fixed;
     background-size: cover;
    -webkit-background-size: cover;
