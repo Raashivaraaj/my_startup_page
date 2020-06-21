@@ -49,6 +49,7 @@ img{
     font-weight: bold;
     animation: fadeInLeft;
     animation-duration:1s;
+   animation-iteration:infinite;
 
 
 }
