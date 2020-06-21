@@ -1,159 +1,74 @@
-
-header{
-	clear: both;
-}
-html{
-	background: url('images/download.jpg')no-repeat center center fixed; 
+.bg{
+  background:url(images/download.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.bg-image{
-	position: absolute;
-	margin: auto;
-	height: 100%;
-	width: 100%;	
+body{
+	background: linear-gradient(lightblue,green,grey);
 }
+ a{
 
-.container{
-	text-align: center;
-	margin-left:15px;
-
-}
-
-h1{
-	font-size: 60px;
 	color: white;
+}
+.header{
+	height: 30%;
+	width: 30%;
+	margin-left:30px;
+	text-align: center;
+}
+.header h1,.header p,.nav-bar{
 	font-family: Abril Fatface,Times New Roman,Times,serif;
-    font-weight: 500;
-    line-height: 1.1;
-
+	font-style: italic;
+	background: -webkit-linear-gradient(#0191B3, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+   
 }
-p{
-	/*font-family: 'Cookie', cursive;*/
-	font-family:cursive;
-	
-	font-size:15px;
-	color: white;
-
-}
-
-a{
+.btn-color{
 	background-color: transparent;
-	color: white;
-	border:1px solid white;
-	margin: 2px;
-	padding: 2px;
+	font-style: italic;
+	background: -webkit-linear-gradient(#0191B3, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
-
-a:hover{
-	outline: 0;
+img{
+	background-color:-webkit-linear-gradient(#0191B3, #333);
 }
-a:visited{
-	text-decoration: underline;
-
-}
-.container a{
-	border:none;
-}
-.nav{
-	font-size: 20px;
-
-}
-.nav a{
-	padding: 10px;
-	margin: 20px,30px;
-	background-color: transparent;
-	color: white;
-	text-decoration: none;
-}
-.nav img{
-	height: 40px;
-	width: 50px;
-}
-
 .title{
-	font-family: 'Fredericka the Great', cursive;
-	color: black;
 	text-align: center;
-	margin: 0 auto;
+	margin-top: 0;
+	background-color: transparent;
+	font-style: italic;
+	background: -webkit-linear-gradient(#0191B3, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    animation: fadeInLeft;
+    animation-duration:1s;
+
+
 }
 .quotes{
-	margin-top: 5px;
+	height:100%;
+    width: 100%;
+    margin: 0 auto;
 	display: flex;
-	
-	border: 1px solid blue;
-	border-radius: 10%;
-	
+	flex-wrap: wrap;
+	justify-content: center;
 }
-img:hover{
+.quotes img{
+	height: 200px;
+	width: 200px;
+
+}
+.quotes img:hover{
 	animation: heartBeat;
 	animation-duration: 3s;
 }
 
 
-.quotes-1 img, .quotes-2 img,.quotes-3 img,.quotes-4 img{
-	height: 250px;
-	width: 250px;
-	}
-.items-right{
-	float:right;
-}
-.btn-bg{
-	background-color: transparent;
-	border-color: white;
 
-}
-.btn-bg:hover{
-	background-color: transparent;
-	border-color: white;
-
-}
-
-
-hr{
-	border-color:blue;
-	max-width: 60px;
-}
-
-.section-container{
-	text-align: center;
-
-	
-	
-}
-.our-serv{
-	position: relative;
-	top: 15px;
-	left: 10px;
-	height: 200px;
-	display: inline-flex;
-	width: 100%;
-}
-.about-section{
-	    position: absolute;
-	    left: 50%;
-	    top: 50%;
-
-	    height: 200px;
-	    width: 100%;
-	    display: inline-block;
-	    
-
-}
-
-.animate__pulse{
-	animation-iteration-count:infinite;
-}
-.section-container h1,.section-container h2{
-	color: black;
-}
-.img-sz{
-	height: 5%;
-	width: 5%;
-}
-.empty{
-	height: 30px;
-	width: 50px;
-}
