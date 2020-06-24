@@ -47,9 +47,9 @@ img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    animation: fadeInLeft;
+    animation: flip;
     animation-duration:1s;
-   animation-iteration:infinite;
+   animation-iteration-count:infinite;
 
 
 }
